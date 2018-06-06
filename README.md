@@ -14,7 +14,7 @@
 
 ## 设置
 
-```Json
+```
 {
     // There are three options here:
     // "popup" is the default, the dictionary will show a pop-up when queried.

@@ -1,32 +1,36 @@
-# Chinese-English Bilingual Dictionary
+# CNDict
 
-A small EN-CN dictionary plug-in for Sublime text 3
+> forked from [https://github.com/divinites/cndict](https://github.com/divinites/cndict)  
+> 感谢[@divinites](https://github.com/divinites)  
+> 在此基础上, 做了优化和新的功能.  
 
-It is a very simple dictionary plug-in for sublime text3.
 
-Usage:
+## 快捷键
 
-Ctrl+Alt+Y: 有道词典 Youdao
+- Ctrl+Alt+C: [腾讯文本翻译](https://ai.qq.com/product/nlptrans.shtml#text)  
+- Ctrl+Alt+Y: 有道词典 Youdao  
+- Ctrl+Alt+J: 金山词典 Jinshan  
 
-Ctrl+Alt+C: 金山词典 Jinshan
 
-Select a word you want to translate, use corresponding key-mappings, then depending on the configuration "format",
+## 设置
 
-There are three possible parameter for format:
+```Json
+{
+    // There are three options here:
+    // "popup" is the default, the dictionary will show a pop-up when queried.
+    // "phantom" will show the query result as a phantom
+    // "pannel" will show the query result in an output pannel
+    "format": "popup"
+}
+```
 
 - "popup":
-
-  a tooltips pop-up will show up, it will not be embeded in but just float on the view.
-  close it by <kbd>ESC</kbd> or <kbd> Crtl+Shift+D </kbd>
+    弹出框形式展示.  
+    <kbd>ESC</kbd> 或 <kbd> Crtl+Shift+D </kbd> 取消.  
 
 - "phantom":
-
-  a block of phantom will show up just below the line:
-
-  Using <kbd> Crtl+Shift+D </kbd> to Erase all Phantoms
+    在当前单词下一行, 以"幽灵方块"的形式展示.  
+    <kbd> Crtl+Shift+D </kbd> 清除所有展示.  
 
 - "pannel":
-
- This is the classical option, an Output Pannel will show up from the bottom.
-
-
+    以传统的调度框展示在Sublime底部.  

@@ -1,17 +1,17 @@
 [
-    { "keys": [ "ctrl+alt+y" ],
+    { "keys": [ "super+shift+y" ],
         "command": "cndict",
         "args": {"dict": "Youdao"}
     },
-    { "keys": [ "ctrl+alt+j" ],
+    { "keys": [ "super+shift+j" ],
         "command": "cndict",
         "args": {"dict": "Jinshan"}
     },
-    { "keys": [ "ctrl+alt+c" ],
+    { "keys": [ "super+shift+c" ],
         "command": "cndict",
         "args": {"dict": "Tencent"}
     },
-    { "keys": [ "ctrl+shift+d" ],
+    { "keys": [ "super+shift+d" ],
         "command": "erase_dict"
     }
 ]

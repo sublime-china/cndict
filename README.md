@@ -1,8 +1,16 @@
 # CNDict
-
 > forked from [https://github.com/divinites/cndict](https://github.com/divinites/cndict)  
 > 感谢[@divinites](https://github.com/divinites)  
 > 在此基础上, 做了优化和新的功能.  
+
+
+## 安装
+- [https://github.com/divinites/cndict](https://github.com/divinites/cndict)  
+<kbd> Ctrl + Shift + P </kbd> -> <kbd> Package Control: Install Package </kbd> -> <kbd> Chinese-English Bilingual Dictionary </kbd>
+
+- [https://github.com/sublime-china/cndict](https://github.com/sublime-china/cndict)  
+<kbd> Ctrl + Shift + P </kbd> -> <kbd> Package Control: Add Repository </kbd> -> <kbd> https://github.com/sublime-china </kbd>  
+<kbd> Ctrl + Shift + P </kbd> -> <kbd> Package Control: Install Package </kbd> -> <kbd> CNDict </kbd>  
 
 
 ## 快捷键
